@@ -1,0 +1,478 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #000000;
+}
+
+.navbar {
+    height: 74px;
+    width: 80%;
+    background-color: #0d0d0d;
+    margin-left: 10%;
+    margin-top: 35px;
+    border-radius: 8px;
+    border: 1px solid #0d0d0d;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.navc {
+    height: 16px;
+    width: 177px;
+    background-image: url("Logo.svg");
+    background-size: contain;
+    margin-right: 40px;
+
+}
+
+.con {
+    justify-content: space-evenly;
+    height: 65px;
+    width: 60%;
+    font-weight: 700;
+    align-items: center;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    color: white;
+}
+
+.c1 {
+    height: 40px;
+    width: 50px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.c2 {
+    height: 40px;
+    width: 50px;
+    margin-left: 10px;
+    padding-top: 10px;
+
+
+}
+
+.c3 {
+    height: 40px;
+    width: 50px;
+    margin-left: 10px;
+    padding-top: 10px;
+
+}
+
+.c4 {
+    height: 40px;
+    width: 60px;
+    margin-left: 15px;
+    padding-top: 10px;
+
+}
+
+.c5 {
+    height: 40px;
+    width: 50px;
+    margin-left: 10px;
+    padding-top: 10px;
+
+}
+
+.c1:hover {
+    color: #bbff00;
+}
+
+.c2:hover {
+    color: #bbff00;
+}
+
+.c3:hover {
+    color: #bbff00;
+}
+
+.c4:hover {
+    color: #bbff00;
+}
+
+.c5:hover {
+    color: #bbff00;
+}
+
+.btn1 {
+    height: 50px;
+    width: 90px;
+    border: 1px solid #bbff00;
+    background-color: #000000;
+    color: #bbff00;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.btn2 {
+    height: 50px;
+    width: 90px;
+    font-weight: 700;
+    margin-left: 10px;
+    background-color: #bbff00;
+    color: #000000;
+    border: 1px solid #bbff00;
+    border-radius: 8px;
+    font-family: sans-serif;
+
+}
+
+.btn1:hover {
+    border: none;
+    background-color: white;
+    color: #000000;
+}
+
+.btn2:hover {
+    border: 1px solid #bbff00;
+    background-color: #000000;
+    color: #bbff00;
+}
+
+.hi {
+    height: 60px;
+    width: 100%;
+    font-weight: 300;
+    margin-top: 25px;
+    font-size: large;
+    font-family: sans-serif;
+    color: #bbff00;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.h2 {
+    height: 90px;
+    width: 100%;
+    font-weight: 300;
+    margin-top: 0;
+    font-size: large;
+    font-family: sans-serif;
+    color: white;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.h3 {
+    height: 60px;
+    width: 100%;
+    font-weight: 300;
+    margin-top: 35px;
+    line-height: 30px;
+    font-size: large;
+    font-family: sans-serif;
+    color: #737373;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.BUTTON {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt2 {
+    height: 60px;
+    width: 180px;
+    border: 1px solid #bbff00;
+    background-color: #bbff00;
+    color: #000000;
+    font-size: 15px;
+    margin-left: 38%;
+    margin-top: 30px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.bt3 {
+    height: 60px;
+    width: 180px;
+    border: none;
+    margin-left: 15px;
+    font-size: 15px;
+
+    background-color: transparent;
+    color: white;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.bt2:hover {
+    background-color: transparent;
+    color: #bbff00;
+    border: 1px solid #bbff00;
+}
+
+.bt3:hover {
+    color: #bbff00;
+}
+
+.img1 {
+    height: 750px;
+    width: 1200px;
+    margin-left: 200px;
+    margin-top: 40px;
+    background-image: url("img1.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.h5 {
+    height: 60px;
+    width: 100%;
+    margin-top: 45px;
+    font-family: sans-serif;
+    color: #bbff00;
+    justify-content: center;
+    text-align: center;
+}
+
+.ban {
+    height: 80px;
+    width: 1100px;
+    margin-left: 250px;
+    margin-top: 25px;
+    background-image: url("banner.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.heading {
+    height: 700px;
+    width: 100%;
+    background-color: #080808;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.h11 {
+    height: 700px;
+    margin-top: 40px;
+    width: 350px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-family: sans-serif;
+    margin-top: 450px;
+    font-weight: 700;
+
+}
+
+.h22 {
+    height: 100px;
+    width: 330px;
+    color: #737373;
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+.photo {
+    margin-top: 120px;
+    height: 700px;
+    width: 750px;
+    background-image: url("banner2.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bttn1 {
+    height: 50px;
+    width: 130px;
+    border: 1px solid #bbff00;
+    background-color: #bbff00;
+    color: #000000;
+    border-radius: 8px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.bttn2 {
+    height: 50px;
+    width: 130px;
+    font-weight: 700;
+    margin-left: 10px;
+    background-color: #000000;
+    color: #bbff00;
+    border: 1px solid #bbff00;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+.bttn1:hover {
+    border: none;
+    background-color: #bbff00;
+    color: #000000;
+}
+
+.bttn2:hover {
+    border: 1px solid #bbff00;
+    background-color: #bbff00;
+    color: #000000;
+}
+
+.heading1 {
+    height: 700px;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+
+.h111 {
+    height: 700px;
+    margin-top: 40px;
+    width: 350px;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-family: sans-serif;
+    margin-top: 450px;
+    font-weight: 700;
+
+}
+
+.h222 {
+    height: 100px;
+    width: 330px;
+    color: #737373;
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+.btttn1 {
+    height: 40px;
+    width: 180px;
+    font-weight: 700;
+    margin-left: 10px;
+    background-color: #000000;
+    color: #bbff00;
+    border: 1px solid #bbff00;
+    border-radius: 8px;
+    font-family: sans-serif;
+}
+
+.btttn1:hover {
+    border: none;
+    background-color: #bbff00;
+    color: #000000;
+}
+
+.photo1 {
+    margin-top: 120px;
+    height: 700px;
+    width: 750px;
+    background-image: url("img2.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ending
+ {
+    height: 500px;
+    width: 100%;
+    background-color: #080808;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+}
+.end-logo{
+    height: 16px;
+    width: 177px;
+    background-image: url("Logo.svg");
+    background-size: contain;
+
+}
+.head{
+    color: #737373;
+    text-align: left;
+    margin-top: 35px;
+    line-height: 25px;
+}
+.end{
+    height:350px ;
+    width: 750px;
+    justify-content: left;
+    margin-top: 150px;
+    align-items: center;
+}
+.ending
+ {
+    height: 250px;
+    width: 100%;
+    background-color: #080808;
+    text-align: center;
+    justify-content: center;
+
+    display: flex;
+
+}
+.endsearch{
+    height: 250px;
+    justify-content: right;
+    width: 750px;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: #080808;
+    display: flex;
+}
+.searchh{
+    height: 60px;
+    font-size: 18px;
+    width: 295px;
+    padding-bottom: 5px;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #080808;
+    color: white;
+
+}
+.bot{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    color: #000000;
+    background-color: #bbff00;
+    margin-right: 15px;
+}
+.copyright{
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: #080808;
+    color:#737373 ;
+    align-items: center;
+    justify-content: center;
+}
